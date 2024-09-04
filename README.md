@@ -48,3 +48,13 @@ Here is an example of creating a second branch off of the master branch...
 
 Once you are happy with your changes, you can merge them into the master branch.
 ```git merge <branch-name>```
+
+### 5.Git Switch
+
+**git switch** is an alternative way to change to another branch
+
+Switch branches
+```git switch <branch-name>```
+
+Create a branch and check it out with one command
+```git checkout -b <branch-name>```
