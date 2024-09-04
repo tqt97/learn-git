@@ -8,3 +8,23 @@ Everything that you do in Git revolves around four main concepts:
 - Commits
 - The working directory
 - The .git repository
+
+### 1. First commit
+
+Let's make a start by initializing a repository and add an initial commit to it.
+
+Initialize a git repo
+
+```
+git init
+```
+
+Add changes to the staging area
+
+```git add <filename>```
+
+or ```git add .``` to add all changes
+
+Commit changes to the repository
+
+```git commit -m 'your messsage goes here'```
