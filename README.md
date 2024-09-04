@@ -14,17 +14,32 @@ Everything that you do in Git revolves around four main concepts:
 Let's make a start by initializing a repository and add an initial commit to it.
 
 Initialize a git repo
-
-```
-git init
-```
+```git init```
 
 Add changes to the staging area
-
 ```git add <filename>```
-
-or ```git add .``` to add all changes
+or
+```git add .``` to add all changes
 
 Commit changes to the repository
-
 ```git commit -m 'your messsage goes here'```
+
+### 2. Git log
+
+You can use git log to examine your history of commits.
+```git log```
+
+### 3. Branches
+
+**Branches** are an important concept in Git and in version control in general. They allow you to create changes in isolation. You only merge them into the rest of the code when you are happy with them.
+
+Here is an example of creating a second branch off of the master branch...
+
+- List branches
+```git branch```
+
+- Create a new branch
+```git branch <branch-name>```
+
+- Change to another branch
+```git checkout <branch-name>```
