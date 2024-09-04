@@ -43,3 +43,8 @@ Here is an example of creating a second branch off of the master branch...
 
 - Change to another branch
 ```git checkout <branch-name>```
+
+### 4. Merging Branches
+
+Once you are happy with your changes, you can merge them into the master branch.
+```git merge <branch-name>```
