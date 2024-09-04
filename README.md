@@ -58,3 +58,11 @@ Switch branches
 
 Create a branch and check it out with one command
 ```git checkout -b <branch-name>```
+
+### 6. Deleting Branches
+
+- **"Normal"** delete
+```git branch -d <branch-name>```
+
+- Force delete (subtle difference..notice the uppercase -D ib the command)
+```git branch -D <branch-name>```
